@@ -3,10 +3,10 @@
 /* =============================================================================== */
 /* responsive typographie */
 
-h1 {
+h1, .h1{
   font-size: 3.9vw !important;
 }			
-h2 {
+h2, .h2 {
   font-size: 3.5vh !important;
 }
 p, a , span{
@@ -104,6 +104,26 @@ p, a , span{
 	footer input{
 		width: 100%;
 	}
+	section.landing{
+		position: relative;
+		height: 500px;
+		background: url(../img/landing.png) no-repeat;
+		background-size: cover;
+		background-position-x: right;
+	}
+	.landingCaption {
+		position: inherit;
+		top: 0;
+		left: 0;
+		transform: translate(0, 0);
+		width: auto;
+	}
+	.landingDescription{
+		padding: 0;
+	}
+	.landingCaption .btn.home-btn{
+		margin: 0;
+	}
 }
 
 /* sm */
@@ -178,10 +198,6 @@ p, a , span{
 	perspective: 1000px;
 	-webkit-perspective-origin: 50% 200%;
 	perspective-origin: 50% 200%;
-}
-
-.dl-menuwrapper:first-child {
-	margin-right: 100px;
 }
 
 .dl-menuwrapper button {

@@ -89,10 +89,10 @@ header .header i.fa{
 	transform: translateY(0px);
 }
  nav.xs-visible{
-	position: fixed;
+	position: absolute;
     top: 35px;
     left: 20px;
-	width: 100%;
+	width: calc(100% - 40px);
 	z-index: 999;
  }
  
