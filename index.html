@@ -1,1 +1,446 @@
-fasdfd
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js" type="text/javascript"></script>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">	
+	
+	<script src="js/common.js" type="text/javascript"></script>
+	<script src="js/modernizr.custom.js"></script>
+
+	<link rel="stylesheet" href="css/global.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/library.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/login-modal.css" type="text/css" media="all">
+</head>
+<body>
+
+
+<audio controls autoplay class="theme-music">
+	<source src="theme_music.mp3.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+</audio>
+	<header>	
+		<div class="container">
+			<div class="row row-eq-height">
+				<div class="col-md-4 col-xs-2 ">
+					<ul class="list-inline xs-hidden">
+						<li><a href="#" class="btn border-carre uppercase button--aylen">FR</a></li>
+						<li><a href="#" class="btn border-carre button--aylen">€</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-xs-8">
+					<div class="header-inner">
+						<img class="img-responsive img-center" src="img/logo-empreinte.png">
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-2 text-right">
+					<ul class="list-inline xs-hidden">
+						<li><a href="compte_partenaire.html" class="btn border-carre uppercase button--aylen">Acces partenaire</a></li>
+						<li><a href="#" class="btn border-carre uppercase button--aylen" role="button" data-toggle="modal" data-target="#login-modal">Connexion</a></li>
+						<li><a href="cart.html" class="btn panier nopadding"><img src="img/panier.png"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container fullWidth nopadding">
+		<div class="row row-eq-height nomargin">
+			<div class="col-md-9 nopadding">
+				<nav class="navigation effect-3d text-center">
+					<ul class="list-inline">
+						<li>
+							<a href="products.html">
+								<span data-hover="Catalogue">Catalogue</span>
+							</a>
+							<ul class="submenu">
+								<li><a href="mobiliers.html" class="uppercase">Céramique</a></li>
+								<li><a href="mobiliers.html" class="uppercase">Mobilier</a></li>
+								<li><a href="mobiliers.html" class="uppercase">Objets d'art</a></li>
+								<li><a href="mobiliers.html" class="uppercase">Ofrèvrerie</a></li>
+								<li><a href="mobiliers.html" class="uppercase">Peinture</a></li>
+								<li><a href="mobiliers.html" class="uppercase">Photographie</a></li>
+								<li><a href="mobiliers.html" class="uppercase">Sculpture</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="artistes.html"><span data-hover="Artistes">Artistes</span></a></li>
+						<li><a href="mise_en_scence.html"><span data-hover="Inspiration">Inspiration</span></a></li>
+						<li><a href="magazine.html"><span data-hover="Magazine">Magazine</span></a></li>
+						<li><a href="my_project.html"><span data-hover="Créer">Créer</span></a></li>
+						<li><a href="guide_des_epoques.html">
+							<span data-hover="Guide des époques">Guide des époques</span>
+
+						</a>
+							<ul class="submenu">
+								<li><a href="epoque_detail.html" class="uppercase">Art déco</a></li>
+								<li><a href="epoque_detail.html" class="uppercase">Art nouveau</a></li>
+								<li><a href="epoque_detail.html" class="uppercase">Contemporain</a></li>
+								<li><a href="epoque_detail.html" class="uppercase">Design</a></li>
+								<li><a href="epoque_detail.html" class="uppercase">Directoire</a></li>
+								<li><a href="epoque_detail.html" class="uppercase">Empire</a></li>
+								<li><a href="epoque_detail.html" class="uppercase">Louis XVI</a></li>
+								<li><a href="epoque_detail.html" class="uppercase">Louis XV</a></li>
+								<li><a href="epoque_detail.html" class="uppercase">Louis XIV</a></li>
+								<li><a href="epoque_detail.html" class="uppercase">Louis XIII</a></li>
+								<li><a href="epoque_detail.html" class="uppercase">Moyen-Âge</a></li>
+								<li><a href="epoque_detail.html" class="uppercase">Régence</a></li>
+								<li><a href="epoque_detail.html" class="uppercase">Transition</a></li>
+							</ul>
+						</li>
+					</ul>				</nav>
+			</div>
+			<div class="col-md-3 nav-search nopadding">
+				<div class="add-icon-search">
+					<input type="text" class="" placeholder="Rechercher sur l'empreinte...">
+					<i class="fa fa-lg fa-search" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<nav class="xs-visible">
+	<div id="dl-menu" class="dl-menuwrapper">
+		<button class="dl-trigger">Open Menu</button>
+		<ul class="dl-menu">
+			<li>
+				<a href="#">Catalogue</a>
+				<ul class="dl-submenu">
+					<li><a href="products.html" class="uppercase">Tous les produits</a></li>
+					<li><a href="mobiliers.html" class="uppercase">Céramique</a></li>
+					<li><a href="mobiliers.html" class="uppercase">Mobilier</a></li>
+					<li><a href="mobiliers.html" class="uppercase">Objets d'art</a></li>
+					<li><a href="mobiliers.html" class="uppercase">Ofrèvrerie</a></li>
+					<li><a href="mobiliers.html" class="uppercase">Peinture</a></li>
+					<li><a href="mobiliers.html" class="uppercase">Photographie</a></li>
+					<li><a href="mobiliers.html" class="uppercase">Sculpture</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="artistes.html">Artistes</a>
+			</li>
+			<li>
+				<a href="mise_en_scence.html">Inspiration</a>
+			</li>
+			<li>
+				<a href="magazine.html">Magazine</a>
+			</li>
+			<li>
+				<a href="my_project.html">Créer</a>
+			</li>
+			<li>
+				<a href="#">Guide des époques</a>
+				<ul class="dl-submenu">
+					<li><a href="guide_des_epoques.html" class="uppercase">Guide</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Art déco</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Art nouveau</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Contemporain</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Design</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Directoire</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Empire</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Louis XVI</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Louis XV</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Louis XIV</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Louis XIII</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Moyen-Âge</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Régence</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Transition</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</nav>
+	<br>
+
+	<!-- BEGIN # MODAL LOGIN -->
+	<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<!-- Begin # DIV Form -->
+				<div id="div-forms" class="bg-white row">
+					<div class="col-md-6">
+						<!-- Begin # Login Form -->
+						<form id="login-form">
+							<h4 class="h4 text-black text-bold">Connexion</h4>
+							<div class="modal-body nopadding">
+								<input id="login_username" class="form-control" type="text" placeholder="Adresse email" required>
+								<input id="login_password" class="form-control" type="password" placeholder="Mot de passe" required>
+								<br>
+								<a href="#" class="text-black text-italic">Mot de passe oublié?</a>
+							</div>
+							<br><br>
+							<div class="modal-footer nopadding">
+								<div>
+									<button type="submit" class="btn btn-primary btn-lg btn-block">Se connecter</button>
+								</div>
+
+							</div>
+						</form>
+						<!-- End # Login Form -->
+					</div>
+					<hr class="xs-hr">
+					<div class="col-md-6">
+						<!-- Begin # Login Form -->
+						<form id="login-form">
+							<h4 class="h4 text-black text-bold">Inscription</h4>
+							<div class="modal-body nopadding">
+								<input id="login_username" class="form-control" type="text" placeholder="Adresse email" required>
+								<input id="login_password" class="form-control" type="password" placeholder="Mot de passe" required>
+							</div>
+							<div class="modal-footer nopadding">
+								<br>
+								<a href="#" class="btn-normal text-black uppercase text-center">Créer un compte</a>
+								<br>
+								<div class="row block-net">
+									<div class="col-md-6 nopadding">
+										<a href="#" class="btn-interest btn-net uppercase">pinterest  <i class="fa fa-pinterest-p text-white" aria-hidden="true"></i></a>
+									</div>
+									<br class="xs-visible">
+									<div class="col-md-6 nopadding">
+										<a href="#" class="btn-nstagram btn-net uppercase">Instagram <i class="fa fa-instagram text-white" aria-hidden="true"></i></a>
+									</div>
+								</div>
+							</div>
+						</form>
+						<!-- End # Login Form -->
+					</div>
+
+
+				</div>
+				<!-- End # DIV Form -->
+
+			</div>
+		</div>
+	</div>
+	<!-- END # MODAL LOGIN -->
+
+
+
+	<section class="container fullWidth landing">
+		<div class="row">
+			<div class="col-md-12">
+				
+			</div>
+		</div>
+		<div class="landingCaption">
+			<h2 class="h2 landingTitle">SUBLIMEZ VOTRE INTÉRIEUR</h2>
+			<p class="landingDescription">
+				L’empreinte réunit pour vous une importante sélection d’oeuvres anciennes et contemporaines, présentés par nos partenaires. Galeries, antiquaires, artistes, ils mettent à votre disposition des oeuvres, mobiliers et objets d’arts de tous genres et toutes époques pour vous permettre de magnifiez votre intérieur. <br><br>
+				En manque d’inspiration ? Découvrez nos mises en scènes entièrement composées d’oeuvres en vente sur L’empreinte.
+			</p>
+			<a href="#" class="btn home-btn button--aylen">Découvrir</a>
+		</div>
+	</section>
+	
+	<section class="container fullWidth padding-lr10vw favorite">
+		<div class="row sectionContent">
+			<div class="col-md-6 col-sm-6 col-xs-12">
+				<a href="product_detail.html">
+				<figure class="effect-ruby">
+				  <img class="img-responsive" src="img/p1.png">
+				<figcaption>
+					<p><strong>Tableau Hans Withoos</strong></p>
+					<p>Bonheur du jour</p>
+					<p>825 €</p>
+				</figcaption>	
+				</figure>
+				</a>
+			</div>
+			
+			<div class="col-md-6 col-sm-6 col-xs-12">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12 favoriteFigcaption">
+						<h2 class="h2 uppercase">NOS COUPS DE COEUR</h2>
+						<p>
+							Ce mois ci, notre coup de coeur s’est dirigé vers cette sculpture abstraite, oeuvre de Hans Arp, peintre et sculpteur Franco-Allemand du XXème siècle. Une pièce simple et élégante qui se mariera merveilleusement à un ce tableau abstrait bleu « bleu et miel» fort en couleurs ou encore à un ancien mobilier en bois verni.
+						</p>
+					</div>
+					<hr class="xs-br">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<a href="product_detail.html">
+						<figure class="effect-ruby">
+						  <img class="img-responsive" src="img/p2.png">
+						  <figcaption>
+								<p><strong>Tableau Hans Withoos</strong></p>
+								<p>Art nouveau</p>
+								<p>825 €</p>
+							</figcaption>	
+						</figure>
+						</a>
+					</div>
+					<hr class="xs-br">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<a href="product_detail.html">
+						<figure class="effect-ruby">
+						  <img class="img-responsive" src="img/p3.png">
+						  <figcaption>
+								<p><strong>GALERIE LABARDE</strong></p>
+								<p>Commode estampillée</p>
+								<p>825 €</p>
+							</figcaption>	
+						</figure>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="container fullWidth padding-lr10vw artist">
+		<div class="row sectionHeader">
+			<div class="col-md-12">
+				<h2 class="h2">L’ARTISTE DU MOMENT</h2>
+			</div>
+		</div>	
+		<hr class="xs-hr">
+		<div class="row row-eq-height sectionContent">
+			<div class="col-md-5 col-xs-12">
+				<figure class="artistInfo">
+					<img class="img-responsive artist-profile-pic" src="img/profile-pic.png">
+				    <figcaption>
+						<h2><strong>Gaspard Mitz -</strong> Sculpteur</h2>
+						<a href="#" class="uppercase btn home-btn button--aylen" >Découvrir ses oeuvres</a>
+					</figcaption>	
+				</figure>
+			</div>
+			<hr class="xs-hr">
+			<hr class="xs-hr">
+			<div class="col-md-offset-1 col-md-6 artistQuotes col-xs-12">
+				<p class="quotes">
+					Inspiré par les figurines de modélisme à l'échelle 1/87, Gaspard Mitz crée sa première histoire miniature en 2010, pour l'offrir à son amie.  <br><br>	
+					Autodidacte, porté par les réactions enthousiastes autour de ses Box Stories, il s'amuse depuis à mettre en scène des personnages de 2 cm dans des situations décalées, drôles et poétiques, se jouant parfois d'oeuvres célèbres.
+				</p>
+			</div>
+		</div>
+	</section>
+	
+	<hr class="separator bg-gris-light xs-hidden">
+	
+	<section class="container fullWidth padding-lr10vw softwareVisual">
+		<div class="row sectionContent">
+			<div class="col-md-9 col-xs-12">
+				<img class="img-responsive" src="img/project-img.png">
+			</div>
+			<div class="col-md-4 col-xs-12 softwareVisualFigcaption">
+				<h2 class="h2 uppercase">DÉCOUVREZ NOTRE LOGICIEL DE VISUALISATION 3D</h2>
+				<p class="">
+					Immergez-vous dans votre nouvel intérieur avec des rendus 3D ultra-réalistes. Entrez les paramètres qui définissent votre espace, puis choisissez les oeuvres ou objets de votre choix dans notre catalogue. <br><br>
+					Effectuez la visite virtuelle de votre nouvelle décoration pour valider vos choix ou tout simplement admirer votre création !
+				</p>
+				<a href="#" class="uppercase btn home-btn button--aylen" >Essayer maintenant</a>
+			</div>
+		</div>
+	</section>
+
+	<br><br><br><br>
+	
+	<section class="container fullWidth padding-lr10vw bg-gris-light">
+		<div class="row sectionContent">
+			<div class="col-md-4 col-sm-4 sm-separator-r">
+				<figure>
+				  <img class="img-responsive" src="img/payement-securise.png">
+				  <figcaption class="text-center">
+					<p><strong>Paiement sécurisé</strong></p>
+					<p class="">sur tout le site</p>
+				  </figcaption>
+				</figure>
+			</div>
+			<hr class="xs-hr">
+			<div class="col-md-4 col-sm-4 sm-separator-r">
+				<figure>
+				  <img class="img-responsive" src="img/retour-gratuit.png">
+				  <figcaption class="text-center">	
+					<p><strong>Retours gratuits</strong></p>
+					<p class="">dans les 30 jours</p>
+				  </figcaption>
+				</figure>
+			</div>
+			<hr class="xs-hr">
+			<div class="col-md-4 col-sm-4">
+				<figure>
+				  <img class="img-responsive" src="img/livraison-rapid.png">
+				  <figcaption class="text-center">
+					<p><strong>Livraison rapide</strong></p>
+					<p class="">en moins d'une semaine</p>
+				  </figcaption>
+				</figure>
+			</div>
+		</div>
+	</section>
+
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 xs-text-center">
+					<img class="img-responsive footer-logo xs-img-center" src="img/footer-logo.png">
+					<ul class="siteMap">
+						<li><a href="#">Qui somme-nous?</a></li>
+						<li><a href="#">Mise en scène?</a></li>
+						<li><a href="#">Le magazine</a></li>
+						<li><a href="#">Contatct</a></li>
+					</ul>
+				</div>
+				<hr class="xs-hr">
+				<div class="col-md-2 xs-text-center">
+					<h6 class="h6 col-title-footer">Nos produits</h6>
+					<ul class="siteMap">
+						<li><a href="#">Mobilier</a></li>
+						<li><a href="#">Tableaux</a></li>
+						<li><a href="#">Sculptures</a></li>
+						<li><a href="#">Objet d'art</a></li>
+					</ul>
+				</div>
+				<hr class="xs-hr">
+				<div class="col-md-3 xs-text-center">
+					<h6 class="h6 col-title-footer">Inscrivez vous à notre newsletter</h6>
+					<input type="text" placeholder="mon email">
+					<a href="#" class="btn home-btn">JE M'INSCRIS</a>
+				</div>
+				<hr class="xs-hr">
+				<div class="col-md-3 xs-text-center">
+					<h6 class="h6 col-title-footer">Essayer notre logiciel de simulation</h6>
+					<ul class="siteMap">
+						<li><a href="#">Je simulation ma décoration</a></li>
+						<li><a href="#">Télécharger notre application</a></li>
+					</ul>
+				</div>
+				<hr class="xs-hr">
+				<div class="col-md-2 xs-text-center">
+					<h6 class="h6 col-title-footer">Rejoignez-nous</h6>
+					<ul class="list-inline">
+						<li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+						<li><i class="fa fa-pinterest-p" aria-hidden="true"></i></li>
+						<li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+						<li><i class="fa fa-google-plus" aria-hidden="true"></i></li>
+						<li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+					</ul>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<p class="nomargin">Mention légales - Plan du site - Copyright 2017 L'empreinte</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery.dlmenu.js"></script>
+	<script>
+		$(function() {
+			$( '#dl-menu' ).dlmenu();
+		});
+	</script>
+</body>
+</html>

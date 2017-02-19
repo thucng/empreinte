@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js" type="text/javascript"></script>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">		
+
+	<script src="js/common.js" type="text/javascript"></script>
+	<script src="js/modernizr.custom.js"></script>
+	
+	<link rel="stylesheet" href="css/global.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/library.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" media="all">
+</head>
+<body>
+<header>
+	<div class="header">
+		<div class="row row-eq-height">
+			<div class="col-md-4 col-xs-2 ">
+				<ul class="list-inline xs-hidden">
+					<li><a href="#" class="btn border-carre uppercase button--aylen">FR</a></li>
+					<li><a href="#" class="btn border-carre button--aylen">€</a></li>
+				</ul>
+			</div>
+			<div class="col-md-4 col-xs-8">
+				<div class="header-inner">
+					<a href="index.html">
+						<img class="img-responsive img-center" src="img/logo-empreinte.png">
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-2 text-right">
+				<ul class="list-inline xs-hidden">
+					<li><a href="compte_partenaire.html" class="btn border-carre uppercase button--aylen">Accès partenaire</a></li>
+					<li><a href="index.html" class="btn border-carre uppercase button--aylen">déconnexion</a></li>
+					<li><a href="#"><i class="fa fa-2x fa-heart text-black" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-2x fa-user text-black" aria-hidden="true"></i></a></li>
+					<li><a href="cart.html" class="btn panier nopadding"><img src="img/panier.png"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+<div class="container fullWidth nopadding">
+	<div class="row row-eq-height nomargin">
+		<div class="col-md-9 nopadding">
+			<nav class="navigation effect-3d text-center">
+				<ul class="list-inline">
+					<li>
+						<a href="products.html">
+							<span data-hover="Catalogue">Catalogue</span>
+						</a>
+						<ul class="submenu">
+							<li><a href="mobiliers.html" class="uppercase">Céramique</a></li>
+							<li><a href="mobiliers.html" class="uppercase">Mobilier</a></li>
+							<li><a href="mobiliers.html" class="uppercase">Objets d'art</a></li>
+							<li><a href="mobiliers.html" class="uppercase">Ofrèvrerie</a></li>
+							<li><a href="mobiliers.html" class="uppercase">Peinture</a></li>
+							<li><a href="mobiliers.html" class="uppercase">Photographie</a></li>
+							<li><a href="mobiliers.html" class="uppercase">Sculpture</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="artistes.html"><span data-hover="Artistes">Artistes</span></a></li>
+					<li><a href="mise_en_scence.html"><span data-hover="Inspiration">Inspiration</span></a></li>
+					<li><a href="magazine.html"><span data-hover="Magazine">Magazine</span></a></li>
+					<li><a href="#"><span data-hover="Créer">Créer</span></a></li>
+					<li><a href="guide_des_epoques.html">
+						<span data-hover="Guide des époques">Guide des époques</span>
+
+					</a>
+						<ul class="submenu">
+							<li><a href="epoque_detail.html" class="uppercase">Art déco</a></li>
+							<li><a href="epoque_detail.html" class="uppercase">Art nouveau</a></li>
+							<li><a href="epoque_detail.html" class="uppercase">Contemporain</a></li>
+							<li><a href="epoque_detail.html" class="uppercase">Design</a></li>
+							<li><a href="epoque_detail.html" class="uppercase">Directoire</a></li>
+							<li><a href="epoque_detail.html" class="uppercase">Empire</a></li>
+							<li><a href="epoque_detail.html" class="uppercase">Louis XVI</a></li>
+							<li><a href="epoque_detail.html" class="uppercase">Louis XV</a></li>
+							<li><a href="epoque_detail.html" class="uppercase">Louis XIV</a></li>
+							<li><a href="epoque_detail.html" class="uppercase">Louis XIII</a></li>
+							<li><a href="epoque_detail.html" class="uppercase">Moyen-Âge</a></li>
+							<li><a href="epoque_detail.html" class="uppercase">Régence</a></li>
+							<li><a href="epoque_detail.html" class="uppercase">Transition</a></li>
+						</ul>
+					</li>
+				</ul>				</nav>
+		</div>
+		<div class="col-md-3 nav-search nopadding">
+			<div class="add-icon-search">
+				<input type="text" class="" placeholder="Rechercher sur l'empreinte...">
+				<i class="fa fa-lg fa-search" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div>
+</div>
+
+<nav class="xs-visible">
+	<div id="dl-menu" class="dl-menuwrapper">
+		<button class="dl-trigger">Open Menu</button>
+		<ul class="dl-menu">
+			<li>
+				<a href="#">Catalogue</a>
+				<ul class="dl-submenu">
+					<li><a href="products.html" class="uppercase">Tous les produits</a></li>
+					<li><a href="mobiliers.html" class="uppercase">Céramique</a></li>
+					<li><a href="mobiliers.html" class="uppercase">Mobilier</a></li>
+					<li><a href="mobiliers.html" class="uppercase">Objets d'art</a></li>
+					<li><a href="mobiliers.html" class="uppercase">Ofrèvrerie</a></li>
+					<li><a href="mobiliers.html" class="uppercase">Peinture</a></li>
+					<li><a href="mobiliers.html" class="uppercase">Photographie</a></li>
+					<li><a href="mobiliers.html" class="uppercase">Sculpture</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="artistes.html">Artistes</a>
+			</li>
+			<li>
+				<a href="mise_en_scence.html">Inspiration</a>
+			</li>
+			<li>
+				<a href="magazine.html">Magazine</a>
+			</li>
+			<li>
+				<a href="my_project.html">Créer</a>
+			</li>
+			<li>
+				<a href="#">Guide des époques</a>
+				<ul class="dl-submenu">
+					<li><a href="guide_des_epoques.html" class="uppercase">Guide</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Art déco</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Art nouveau</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Contemporain</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Design</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Directoire</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Empire</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Louis XVI</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Louis XV</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Louis XIV</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Louis XIII</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Moyen-Âge</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Régence</a></li>
+					<li><a href="epoque_detail.html" class="uppercase">Transition</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</nav>
+<hr>
+	<br>
+	<section class="container fullWidth">
+		<div class="row">
+			<div class="col-md-12 nopadding">
+				<h2 class="h2 uppercase pageTitle n nomargin">Tous les produits</h2>
+			</div>
+		</div>
+	</section>
+	<br>
+	<br>
+	<section class="container">
+		<div class="flex-container">
+			<div class="row">
+				<div class="col-md-12 text-center nav-filter nopadding">
+					<dl class="dropdown"> 
+						<dt>
+						<a href="#">
+						  <span class="hida">Epoque</span>    
+						  <span class="pull-right"><i class="fa fa-lg fa-angle-down" aria-hidden="true"></i></span>
+						  <p class="multiSel"></p>  
+						</a>
+						</dt>
+						<dd>
+							<div class="mutliSelect">
+								<ul>
+									<li><input type="checkbox" value="Art déco" /> Art déco</li>
+									<li><input type="checkbox" value="Art nouveau" /> Art nouveau</li>
+									<li><input type="checkbox" value="Contemporain" /> Contemporain</li>
+									<li><input type="checkbox" value="Design" /> Design</li>
+									<li><input type="checkbox" value="Directoire" /> Directoire</li>
+									<li><input type="checkbox" value="Empire" /> Empire</li>
+									<li><input type="checkbox" value="Louis XVI" /> Louis XVI</li>
+									<li><input type="checkbox" value="Louis XV" /> Louis XV</li>
+									<li><input type="checkbox" value="Louis XIV" /> Louis XIV</li>
+									<li><input type="checkbox" value="Louis XIII" /> Louis XIII</li>
+									<li><input type="checkbox" value="Moyen-Âge" /> Moyen-Âge</li>
+									<li><input type="checkbox" value="Régence" /> Régence</li>
+									<li><input type="checkbox" value="Transition" /> Transition</li>
+								</ul>
+							</div>
+						</dd>
+					</dl>
+					
+					<dl class="dropdown"> 
+						<dt>
+						<a href="#">
+						  <span class="hida">Catégorie</span>    
+						  <span class="pull-right"><i class="fa fa-lg fa-angle-down" aria-hidden="true"></i></span>
+						  <p class="multiSel"></p>  
+						</a>
+						</dt>
+						<dd>
+							<div class="mutliSelect">
+								<ul>
+									<li><input type="checkbox" value="Céramique" /> Céramique</li>
+									<li><input type="checkbox" value="Mobilier" /> Mobilier</li>
+									<li><input type="checkbox" value="Objets d'art" /> Objets d'art</li>
+									<li><input type="checkbox" value="Orfèvrerie" /> Orfèvrerie</li>
+									<li><input type="checkbox" value="Pentuire" /> Pentuire</li>
+									<li><input type="checkbox" value="Photographie" /> Photographie</li>
+									<li><input type="checkbox" value="Sculpture" /> Sculpture</li>
+								</ul>
+							</div>
+						</dd>
+					</dl>
+					
+					<dl class="dropdown"> 
+						<dt>
+						<a href="#">
+						  <span class="hida">Teinte</span>    
+						  <span class="pull-right"><i class="fa fa-lg fa-angle-down" aria-hidden="true"></i></span>
+						  <p class="multiSel"></p>  
+						</a>
+						</dt>
+						<dd>
+							<div class="mutliSelect">
+								<ul>
+									<li><input type="checkbox" value="Beige" /> Beige</li>
+									<li><input type="checkbox" value="Blanc" /> Blanc</li>
+									<li><input type="checkbox" value="Bleu" /> Bleu</li>
+									<li><input type="checkbox" value="Gris" /> Gris</li>
+									<li><input type="checkbox" value="Jaune" /> Jaune</li>
+									<li><input type="checkbox" value="Marron" /> Marron</li>
+									<li><input type="checkbox" value="Noir" /> Noir</li>
+									<li><input type="checkbox" value="Orange" /> Orange</li>
+									<li><input type="checkbox" value="Rose" /> Rose</li>
+									<li><input type="checkbox" value="Rouge" /> Rouge</li>
+									<li><input type="checkbox" value="Vert" /> Vert</li>
+									<li><input type="checkbox" value="Violet" /> Violet</li>
+								</ul>
+							</div>
+						</dd>
+					</dl>
+					
+					<dl class="dropdown filter-dimension"> 
+						<dt>
+						<a href="#">
+						  <span class="hida">Dimension</span>    
+						  <span class="pull-right"><i class="fa fa-lg fa-angle-down" aria-hidden="true"></i></span>
+						  <p class="multiSel"></p>  
+						</a>
+						</dt>
+						<dd>
+							<div class="mutliSelect">
+								<ul>
+									<li><p>Largeur (cm):</p></li>
+									<li>
+										<span>De </span>
+										<input type="text" class="input-dimension"> 
+										<span>à </span>
+										<input type="text" class="input-dimension"></li>
+									<li><p>Hauteur (cm):</p></li>
+									<li>
+										<span>De </span>
+										<input type="text" class="input-dimension"> 
+										<span>à </span>
+										<input type="text" class="input-dimension"></li>
+									</li>
+									<li><p>Profondeur (cm):</p></li>
+									<li>
+										<span>De </span>
+										<input type="text" class="input-dimension"> 
+										<span>à </span>
+										<input type="text" class="input-dimension"></li>
+									</li>
+									<li><a href="#" class="uppercase">appliquer</a></li>
+								</ul>
+							</div>
+						</dd>
+					</dl>
+					
+					<dl class="dropdown"> 
+						<dt>
+						<a href="#">
+						  <span class="hida">Prix</span>    
+						  <span class="pull-right"><i class="fa fa-lg fa-angle-down" aria-hidden="true"></i></span>
+						  <p class="multiSel"></p>  
+						</a>
+						</dt>
+						<dd>
+							<div class="mutliSelect">
+								<ul>
+									<li><input type="checkbox" value="< 500€" /> < 500€</li>
+									<li><input type="checkbox" value="500 - 1 000€" /> 500 - 1 000€</li>
+									<li><input type="checkbox" value="1 000 -2 500€" /> 1 000 -2 500€</li>
+									<li><input type="checkbox" value="2 500 - 5 000€" /> 2 500 - 5 000€</li>
+									<li><input type="checkbox" value="5 000€ - 10 000€" /> 5 000€ - 10 000€</li>
+									<li><input type="checkbox" value="10 000€ - 25 000€" /> 10 000€ - 25 000€</li>
+								</ul>
+							</div>
+						</dd>
+					</dl>
+					
+					<dl class="dropdown filter-ordre"> 
+						<dt>
+						<a href="#">
+						  <span class="hida">Trier par</span>    
+						  <span class="pull-right"><i class="fa fa-lg fa-angle-down" aria-hidden="true"></i></span>
+						  <p class="multiSel"></p>  
+						</a>
+						</dt>
+						<dd>
+							<div class="mutliSelect">
+								<ul>
+									<li><input type="radio" value="Céramique" /> Prix: par ordre croissant</li>
+									<li><input type="radio" value="Mobilier" /> Prix: par ordre décroissant</li>
+								</ul>
+							</div>
+						</dd>
+					</dl>
+					
+					<a href="#" class="text-yellow text-bold border-right">Réinitialiser</a>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="row">
+			<div class="col-md-3 col-sm-6">
+				<a href="product_detail.html">
+					<div class="product-item border-gris">
+						<figure>
+							<img class="img-responsive" src="img/product-detail/Image1.png">
+							<figcaption class="text-center">
+								<p class="text-bold text-black">MELVIN MCGUIRE</p>
+								<p class="text-italic text-black">Table en bois</p>
+								<p class="text-yellow">99€</p>
+							</figcaption>
+						</figure>
+					</div>
+				</a>
+			</div>
+			<hr class="xs-hr">
+			<div class="col-md-3 col-sm-6">
+				<a href="product_detail.html">
+					<div class="product-item border-gris">
+						<figure>
+							<img class="img-responsive" src="img/product-detail/img2.png">
+							<figcaption class="text-center">
+								<p class="text-bold text-black">ROGER HARMON</p>
+								<p class="text-italic text-black">Horloge ancienne</p>
+								<p class="text-yellow">570€</p>
+							</figcaption>
+						</figure>
+					</div>
+				</a>
+			</div>
+			<hr class="xs-hr">
+			<div class="col-md-3 col-sm-6">
+				<a href="product_detail.html">
+					<div class="product-item border-gris">
+						<figure>
+							<img class="img-responsive" src="img/product-detail/Image3.png">
+							<figcaption class="text-center">
+								<p class="text-bold text-black">BRANDON PARK</p>
+								<p class="text-italic text-black">Table coulissante</p>
+								<p class="text-yellow">1 055€</p>
+							</figcaption>
+						</figure>
+					</div>
+				</a>
+			</div>
+			<hr class="xs-hr">
+			<div class="col-md-3 col-sm-6">
+				<a href="product_detail.html">
+					<div class="product-item border-gris">
+						<figure>
+							<img class="img-responsive" src="img/product-detail/Image6.png">
+							<figcaption class="text-center">
+								<p class="text-bold text-black">DELLA FOX</p>
+								<p class="text-italic text-black">Un réveil matin</p>
+								<p class="text-yellow">29€</p>
+							</figcaption>
+						</figure>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+		
+		<br>
+		
+		
+		<div class="row">
+			<div class="col-md-3 col-sm-6">
+				<a href="product_detail.html">
+					<div class="product-item border-gris">
+						<figure>
+							<img class="img-responsive" src="img/product-detail/img similaire1.png">
+							<figcaption class="text-center">
+								<p class="text-bold text-black">JERRY MCBRIDE</p>
+								<p class="text-italic text-black">Horloge de table</p>
+								<p class="text-yellow">199€</p>
+							</figcaption>
+						</figure>
+					</div>
+				</a>
+			</div>
+			<hr class="xs-hr">
+			<div class="col-md-3 col-sm-6">
+				<a href="product_detail.html">
+					<div class="product-item border-gris">
+						<figure>
+							<img class="img-responsive" src="img/product-detail/Image2.png">
+							<figcaption class="text-center">
+								<p class="text-bold text-black">LETTIE JAMES</p>
+								<p class="text-italic text-black">Table en ardoise</p>
+								<p class="text-yellow">780€</p>
+							</figcaption>
+						</figure>
+					</div>
+				</a>
+			</div>
+			<hr class="xs-hr">
+			<div class="col-md-3 col-sm-6">
+				<a href="product_detail.html">
+					<div class="product-item border-gris">
+						<figure>
+							<img class="img-responsive" src="img/product-detail/Image5.png">
+							<figcaption class="text-center">
+								<p class="text-bold text-black">RONALD CURRY</p>
+								<p class="text-italic text-black">Boussole antique</p>
+								<p class="text-yellow">745€</p>
+							</figcaption>
+						</figure>
+					</div>
+				</a>
+			</div>
+			<hr class="xs-hr">
+			<div class="col-md-3 col-sm-6">
+				<a href="product_detail.html">
+					<div class="product-item border-gris">
+						<figure>
+							<img class="img-responsive" src="img/product-detail/Image4.png">
+							<figcaption class="text-center">
+								<p class="text-bold text-black">LANDON WEB</p>
+								<p class="text-italic text-black">Table en bâton</p>
+								<p class="text-yellow">2 055€</p>
+							</figcaption>
+						</figure>
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+	<br><br><br><br><br><br>
+	
+	<section class="container fullWidth padding-lr10vw bg-gris-light">
+		<div class="row sectionContent">
+			<div class="col-md-4 col-sm-4 sm-separator-r">
+				<figure>
+				  <img class="img-responsive" src="img/payement-securise.png">
+				  <figcaption class="text-center">
+					<p><strong>Paiement sécurisé</strong></p>
+					<p class="">sur tout le site</p>
+				  </figcaption>
+				</figure>
+			</div>
+			<hr class="xs-hr">
+			<div class="col-md-4 col-sm-4 sm-separator-r">
+				<figure>
+				  <img class="img-responsive" src="img/retour-gratuit.png">
+				  <figcaption class="text-center">	
+					<p><strong>Retours gratuits</strong></p>
+					<p class="">dans les 30 jours</p>
+				  </figcaption>
+				</figure>
+			</div>
+			<hr class="xs-hr">
+			<div class="col-md-4 col-sm-4">
+				<figure>
+				  <img class="img-responsive" src="img/livraison-rapid.png">
+				  <figcaption class="text-center">
+					<p><strong>Livraison rapide</strong></p>
+					<p class="">en moins d'une semaine</p>
+				  </figcaption>
+				</figure>
+			</div>
+		</div>
+	</section>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 xs-text-center">
+				<img class="img-responsive footer-logo xs-img-center" src="img/footer-logo.png">
+				<ul class="siteMap">
+					<li><a href="#">Qui somme-nous?</a></li>
+					<li><a href="#">Mise en scène?</a></li>
+					<li><a href="#">Le magazine</a></li>
+					<li><a href="#">Contatct</a></li>
+				</ul>
+			</div>
+			<hr class="xs-hr">
+			<div class="col-md-2 xs-text-center">
+				<h6 class="h6 col-title-footer">Nos produits</h6>
+				<ul class="siteMap">
+					<li><a href="#">Mobilier</a></li>
+					<li><a href="#">Tableaux</a></li>
+					<li><a href="#">Sculptures</a></li>
+					<li><a href="#">Objet d'art</a></li>
+				</ul>
+			</div>
+			<hr class="xs-hr">
+			<div class="col-md-3 xs-text-center">
+				<h6 class="h6 col-title-footer">Inscrivez vous à notre newsletter</h6>
+				<input type="text" placeholder="mon email">
+				<a href="#" class="btn home-btn">JE M'INSCRIS</a>
+			</div>
+			<hr class="xs-hr">
+			<div class="col-md-3 xs-text-center">
+				<h6 class="h6 col-title-footer">Essayer notre logiciel de simulation</h6>
+				<ul class="siteMap">
+					<li><a href="#">Je simulation ma décoration</a></li>
+					<li><a href="#">Télécharger notre application</a></li>
+				</ul>
+			</div>
+			<hr class="xs-hr">
+			<div class="col-md-2 xs-text-center">
+				<h6 class="h6 col-title-footer">Rejoignez-nous</h6>
+				<ul class="list-inline">
+					<li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+					<li><i class="fa fa-pinterest-p" aria-hidden="true"></i></li>
+					<li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+					<li><i class="fa fa-google-plus" aria-hidden="true"></i></li>
+					<li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+				</ul>
+			</div>
+		</div>
+		<br>
+		<hr class="xs-hr">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<p class="nomargin">Mention légales - Plan du site - Copyright 2017 L'empreinte</p>
+			</div>
+		</div>
+	</div>
+</footer>
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/jquery.dlmenu.js"></script>
+	<script>
+		$(function() {
+			$( '#dl-menu' ).dlmenu();
+		});
+	</script>
+</body>
+</html>

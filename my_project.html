@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js" type="text/javascript">
+    </script>
+    <script src="js/common.js" type="text/javascript">
+    </script>
+    <script src="js/modernizr.custom.js">
+    </script>
+    <link href="css/global.css" media="all" rel="stylesheet" type="text/css">
+    <link href="css/library.css" media="all" rel="stylesheet" type="text/css">
+    <link href="css/reset.css" media="all" rel="stylesheet" type="text/css">
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css">
+    <link href="css/responsive.css" media="all" rel="stylesheet" type="text/css">
+
+    <style>
+        /* Style the Image Used to Trigger the Modal */
+        #myImg {
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        #myImg:hover {opacity: 0.7;}
+
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+        }
+
+        /* Modal Content (Image) */
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 100vh;
+        }
+
+        /* Add Animation - Zoom in the Modal */
+        .modal-content, #caption {
+            -webkit-animation-name: zoom;
+            -webkit-animation-duration: 0.6s;
+            animation-name: zoom;
+            animation-duration: 0.6s;
+        }
+
+        @-webkit-keyframes zoom {
+            from {-webkit-transform:scale(0)}
+            to {-webkit-transform:scale(1)}
+        }
+
+        @keyframes zoom {
+            from {transform:scale(0)}
+            to {transform:scale(1)}
+        }
+
+        /* The Close Button */
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #fff;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* 100% Image Width on Smaller Screens */
+        @media only screen and (max-width: 700px){
+            .modal-content {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="header">
+        <div class="row row-eq-height">
+            <div class="col-md-4 col-xs-2 ">
+                <ul class="list-inline xs-hidden">
+                    <li><a href="#" class="btn border-carre uppercase button--aylen">FR</a></li>
+                    <li><a href="#" class="btn border-carre button--aylen">€</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-xs-8">
+                <div class="header-inner">
+                    <a href="index.html">
+                        <img class="img-responsive img-center" src="img/logo-empreinte.png">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-2 text-right">
+                <ul class="list-inline xs-hidden">
+                    <li><a href="compte_partenaire.html" class="btn border-carre uppercase button--aylen">Accès partenaire</a></li>
+                    <li><a href="index.html" class="btn border-carre uppercase button--aylen">déconnexion</a></li>
+                    <li><a href="compte_partenaire.html"><i class="fa fa-2x fa-heart text-black" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-2x fa-user text-black" aria-hidden="true"></i></a></li>
+                    <li><a href="cart.html" class="btn panier nopadding"><img src="img/panier.png"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container fullWidth nopadding">
+    <div class="row row-eq-height nomargin">
+        <div class="col-md-9 nopadding">
+            <nav class="navigation effect-3d text-center">
+                <ul class="list-inline">
+                    <li>
+                        <a href="products.html">
+                            <span data-hover="Catalogue">Catalogue</span>
+                        </a>
+                        <ul class="submenu">
+                            <li><a href="mobiliers.html" class="uppercase">Céramique</a></li>
+                            <li><a href="mobiliers.html" class="uppercase">Mobilier</a></li>
+                            <li><a href="mobiliers.html" class="uppercase">Objets d'art</a></li>
+                            <li><a href="mobiliers.html" class="uppercase">Ofrèvrerie</a></li>
+                            <li><a href="mobiliers.html" class="uppercase">Peinture</a></li>
+                            <li><a href="mobiliers.html" class="uppercase">Photographie</a></li>
+                            <li><a href="mobiliers.html" class="uppercase">Sculpture</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="artistes.html"><span data-hover="Artistes">Artistes</span></a></li>
+                    <li><a href="mise_en_scence.html"><span data-hover="Inspiration">Inspiration</span></a></li>
+                    <li><a href="magazine.html"><span data-hover="Magazine">Magazine</span></a></li>
+                    <li><a href="#"><span data-hover="Créer">Créer</span></a></li>
+                    <li><a href="guide_des_epoques.html">
+                        <span data-hover="Guide des époques">Guide des époques</span>
+
+                    </a>
+                        <ul class="submenu">
+                            <li><a href="epoque_detail.html" class="uppercase">Art déco</a></li>
+                            <li><a href="epoque_detail.html" class="uppercase">Art nouveau</a></li>
+                            <li><a href="epoque_detail.html" class="uppercase">Contemporain</a></li>
+                            <li><a href="epoque_detail.html" class="uppercase">Design</a></li>
+                            <li><a href="epoque_detail.html" class="uppercase">Directoire</a></li>
+                            <li><a href="epoque_detail.html" class="uppercase">Empire</a></li>
+                            <li><a href="epoque_detail.html" class="uppercase">Louis XVI</a></li>
+                            <li><a href="epoque_detail.html" class="uppercase">Louis XV</a></li>
+                            <li><a href="epoque_detail.html" class="uppercase">Louis XIV</a></li>
+                            <li><a href="epoque_detail.html" class="uppercase">Louis XIII</a></li>
+                            <li><a href="epoque_detail.html" class="uppercase">Moyen-Âge</a></li>
+                            <li><a href="epoque_detail.html" class="uppercase">Régence</a></li>
+                            <li><a href="epoque_detail.html" class="uppercase">Transition</a></li>
+                        </ul>
+                    </li>
+                </ul>				</nav>
+        </div>
+        <div class="col-md-3 nav-search nopadding">
+            <div class="add-icon-search">
+                <input type="text" class="" placeholder="Rechercher sur l'empreinte...">
+                <i class="fa fa-lg fa-search" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="xs-visible">
+    <div id="dl-menu" class="dl-menuwrapper">
+        <button class="dl-trigger">Open Menu</button>
+        <ul class="dl-menu">
+            <li>
+                <a href="#">Catalogue</a>
+                <ul class="dl-submenu">
+                    <li><a href="products.html" class="uppercase">Tous les produits</a></li>
+                    <li><a href="mobiliers.html" class="uppercase">Céramique</a></li>
+                    <li><a href="mobiliers.html" class="uppercase">Mobilier</a></li>
+                    <li><a href="mobiliers.html" class="uppercase">Objets d'art</a></li>
+                    <li><a href="mobiliers.html" class="uppercase">Ofrèvrerie</a></li>
+                    <li><a href="mobiliers.html" class="uppercase">Peinture</a></li>
+                    <li><a href="mobiliers.html" class="uppercase">Photographie</a></li>
+                    <li><a href="mobiliers.html" class="uppercase">Sculpture</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="artistes.html">Artistes</a>
+            </li>
+            <li>
+                <a href="mise_en_scence.html">Inspiration</a>
+            </li>
+            <li>
+                <a href="magazine.html">Magazine</a>
+            </li>
+            <li>
+                <a href="my_project.html">Créer</a>
+            </li>
+            <li>
+                <a href="#">Guide des époques</a>
+                <ul class="dl-submenu">
+                    <li><a href="guide_des_epoques.html" class="uppercase">Guide</a></li>
+                    <li><a href="epoque_detail.html" class="uppercase">Art déco</a></li>
+                    <li><a href="epoque_detail.html" class="uppercase">Art nouveau</a></li>
+                    <li><a href="epoque_detail.html" class="uppercase">Contemporain</a></li>
+                    <li><a href="epoque_detail.html" class="uppercase">Design</a></li>
+                    <li><a href="epoque_detail.html" class="uppercase">Directoire</a></li>
+                    <li><a href="epoque_detail.html" class="uppercase">Empire</a></li>
+                    <li><a href="epoque_detail.html" class="uppercase">Louis XVI</a></li>
+                    <li><a href="epoque_detail.html" class="uppercase">Louis XV</a></li>
+                    <li><a href="epoque_detail.html" class="uppercase">Louis XIV</a></li>
+                    <li><a href="epoque_detail.html" class="uppercase">Louis XIII</a></li>
+                    <li><a href="epoque_detail.html" class="uppercase">Moyen-Âge</a></li>
+                    <li><a href="epoque_detail.html" class="uppercase">Régence</a></li>
+                    <li><a href="epoque_detail.html" class="uppercase">Transition</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+<br><br>
+<hr class="nomargin">
+<section class="container fullWidth nopadding xs-hidden">
+    <div class="row nomargin">
+        <div class="col-md-4 nopadding tool-project">
+            <br>
+            <h4 class="h4 project-sub-title uppercase text-bold">Mon projet</h4>
+            <ul class="list-inline margin-left20">
+                <li><a href="" class="btn uppercase button--aylen text-black uppercase">nouveau projet</a></li>
+                <li><a href="" class="btn uppercase button--aylen text-black uppercase">mes projets sauvegardés</a></li>
+            </ul>
+            <br><br>
+            <h4 class="h4 project-sub-title  uppercase text-bold">Ma pièce</h4>
+            <ul class="list-inline margin-left20">
+                <li><a href="#" class=""><img src="img/project/piece1.png" class="border-gris img-responsive"> </a></li>
+                <li><a href="#" class=""><img src="img/project/piece2.png" class="border-gris img-responsive"> </a></li>
+                <li><a href="#" class=""><img src="img/project/piece3.png" class="border-gris img-responsive"> </a></li>
+                <li><a href="#" class=""><img src="img/project/piece4.png" class="border-gris img-responsive"> </a></li>
+            </ul>
+            <br><br>
+            <h4 class="h4 project-sub-title  uppercase text-bold">Ma wishlist</h4>
+            <ul class="list-inline margin-left20">
+                <li><a href="#" class=""><img src="img/project/wishlist1.png" class="border-gris img-responsive"> </a></li>
+                <li><a href="#" class=""><img src="img/project/wishlist2.png" class="border-gris img-responsive"> </a></li>
+            </ul>
+            <br><br>
+            <h4 class="h4 project-sub-title  uppercase text-bold">utilisés</h4>
+            <ul class="list-inline  margin-left20">
+                <li><a href="#" class="img-utilise"><img src="img/project/utiilise.png" class="border-gris img-responsive"> </a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-8 nopadding">
+            <img src="img/project.png" class="img-responsive">
+        </div>
+    </div>
+</section>
+
+<section class="container fullWidth xs-visible">
+    <div class="row">
+        <div class="col-md-12">
+            <p>Vous trouvez <a href="#">ici</a> application mobile</p>
+        </div>
+    </div>
+</section>
+
+<br><br><br><br>
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 xs-text-center">
+                <img class="img-responsive footer-logo xs-img-center" src="img/footer-logo.png">
+                <ul class="siteMap">
+                    <li><a href="#">Qui somme-nous?</a></li>
+                    <li><a href="#">Mise en scène?</a></li>
+                    <li><a href="#">Le magazine</a></li>
+                    <li><a href="#">Contatct</a></li>
+                </ul>
+            </div>
+            <hr class="xs-hr">
+            <div class="col-md-2 xs-text-center">
+                <h6 class="h6 col-title-footer">Nos produits</h6>
+                <ul class="siteMap">
+                    <li><a href="#">Mobilier</a></li>
+                    <li><a href="#">Tableaux</a></li>
+                    <li><a href="#">Sculptures</a></li>
+                    <li><a href="#">Objet d'art</a></li>
+                </ul>
+            </div>
+            <hr class="xs-hr">
+            <div class="col-md-3 xs-text-center">
+                <h6 class="h6 col-title-footer">Inscrivez vous à notre newsletter</h6>
+                <input type="text" placeholder="mon email">
+                <a href="#" class="btn home-btn">JE M'INSCRIS</a>
+            </div>
+            <hr class="xs-hr">
+            <div class="col-md-3 xs-text-center">
+                <h6 class="h6 col-title-footer">Essayer notre logiciel de simulation</h6>
+                <ul class="siteMap">
+                    <li><a href="#">Je simulation ma décoration</a></li>
+                    <li><a href="#">Télécharger notre application</a></li>
+                </ul>
+            </div>
+            <hr class="xs-hr">
+            <div class="col-md-2 xs-text-center">
+                <h6 class="h6 col-title-footer">Rejoignez-nous</h6>
+                <ul class="list-inline">
+                    <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-pinterest-p" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-google-plus" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <hr class="xs-hr">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p class="nomargin">Mention légales - Plan du site - Copyright 2017 L'empreinte</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery.dlmenu.js">
+</script>
+<script>
+    $(function() {
+        $( '#dl-menu' ).dlmenu();
+    });
+
+</script>
+</body>
+</html>
