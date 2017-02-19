@@ -124,6 +124,12 @@ p, a , span{
 	.landingCaption .btn.home-btn{
 		margin: 0;
 	}
+	.favoriteFigcaption{
+		padding: 25px;
+	}
+	.favoriteFigcaption p{
+		max-width: 100%;
+	}
 }
 
 /* sm */
@@ -143,6 +149,7 @@ p, a , span{
 	.mise-en-scence-des{
 		max-width: 100%;
 	}
+
 }
 
 /* md */
