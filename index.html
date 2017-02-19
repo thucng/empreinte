@@ -234,6 +234,7 @@
 				L’empreinte réunit pour vous une importante sélection d’oeuvres anciennes et contemporaines, présentés par nos partenaires. Galeries, antiquaires, artistes, ils mettent à votre disposition des oeuvres, mobiliers et objets d’arts de tous genres et toutes époques pour vous permettre de magnifiez votre intérieur. <br><br>
 				En manque d’inspiration ? Découvrez nos mises en scènes entièrement composées d’oeuvres en vente sur L’empreinte.
 			</p>
+			<br class="xs-hr">
 			<a href="#" class="btn home-btn button--aylen">Découvrir</a>
 		</div>
 	</section>
@@ -440,6 +441,10 @@
 	<script>
 		$(function() {
 			$( '#dl-menu' ).dlmenu();
+            $.preload(["img/landing.png", "img/project-img.png", "img/p1.png"]);
+            $(document).ready(function () {
+                $('#page_effect').fadeIn(2000);
+            });
 		});
 	</script>
 </body>
