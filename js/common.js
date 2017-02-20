@@ -15,6 +15,8 @@
 	
 	/*============================ filter ===============================*/
 	$(".dropdown dt a").on('click', function() {
+	  $(this).parent().parent().siblings().find("dd ul").filter(function() { return $(this).css("display") != "none" }).slideToggle('fast');
+	  $(this).parent().parent().siblings().find(".fa-angle-down").removeClass('rotate180');
 	  $(this).parent().parent().find("dd ul").slideToggle('fast');
 	  $(this).find(".fa-angle-down").toggleClass('rotate180');
 	});
@@ -43,6 +45,10 @@
 		return false;
 	});
 
+     $('a[href="#"]').click(function(e)
+     {
+         e.preventDefault();
+     });
 
 
 });
