@@ -12,6 +12,9 @@ Color secondary : #FFC600
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+header .container.fullWidth{
+	padding:0  10vw; 
+}
  header{
 	padding: 10px;
 	height: 110px;
