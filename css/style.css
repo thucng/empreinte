@@ -414,7 +414,7 @@ section.favorite figure figcaption::after {
 .similar-item  a{color: #ffc600;}
 .similar-author{font-weight: bold;}
 .similar-item  figcaption{padding: 10px;}
-.similar-img{width: 100%; max-height: 150px;}
+.similar-img{width: 100%; max-height: 150px; min-height: 150px;}
 .similar-description{
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -604,6 +604,16 @@ section.landing-mise-en-scence.favorite figure.effect-ruby:hover img{
 	display: inline-block;
 	width: 40px;
 	margin: 0 10px;
+}
+
+.filter-dimension .mutliSelect ul li:last-child:hover{
+    background: transparent;
+}
+.filter-dimension .button--aylen:hover{
+    color:#fff;
+}
+.filter-dimension .button--aylen{
+    margin-left: 25px;
 }
 
 .filter-ordre dd ul{
@@ -868,4 +878,34 @@ a .product-item:hover  img{
 	width: 3vw;
 	height: 1px;
 	background-color: #FFC600;
+}
+.btn-product.no-shadow:hover{
+    box-shadow: none;
+}
+section.landing-mise-en-scence.favorite{
+	background: transparent;
+}
+section.landing-mise-en-scence.favorite .col-md-6{
+	padding: 5px !important;
+}
+img[src="img/mise-en-scence/pic7.png"]{
+	min-height: 588px;
+}
+section.landing-mise-en-scence.favorite figure.effect-ruby:hover img{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.compte-partenaire .white-row{
+	box-shadow: none;
+}
+.margin-middle{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.btn-voir-magazine{
+	margin-top: 55px;
+	margin-bottom: 5px;
+}
+.btn-voir-magazine:hover{
+	text-decoration: underline;
 }

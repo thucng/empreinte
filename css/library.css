@@ -78,7 +78,7 @@ a, a:hover, a:focus{text-decoration: none !important;}
 .text-white{color: #fff;}
 .text-yellow{color: #FFC600;}
 .text-gris{color:#71726f;}
-.text-green{color:#6dff0c;}
+.text-green{color:#59e000;}
 
 .text-bold{font-weight: 700;}
 .text-italic{font-style: italic;}
@@ -205,7 +205,7 @@ figure.effect-ruby:hover p {
 		display:block;
 	 }
 	  .xs-text-center{text-align:center;}
-	  .xs-img-center{margin-left: auto; margin-right:auto;}
+	  .xs-img-center{margin-left: auto !important; margin-right:auto !important;}
 }
 
 /* sm */

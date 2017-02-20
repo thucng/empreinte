@@ -54,7 +54,7 @@ p, a , span{
 		padding: 15px 0;
 	}
 	p, a {
-	  font-size: 3vmin !important;
+		font-size: 3.4vmin !important;
 	}
 	.nav-filter{
 		display: block;
@@ -109,7 +109,7 @@ p, a , span{
 		height: 500px;
 		background: url(../img/landing.png) no-repeat;
 		background-size: cover;
-		background-position-x: right;
+		background-position: top, right;
 	}
 	.landingCaption {
 		position: inherit;
