@@ -147,12 +147,14 @@ header .header i.fa{
 	overflow: hidden;
 	padding: 4px;
 	height: 1.1em;
+	font-size: 15px !important;
 }
 
 .effect-3d a span {
 	position: relative;
 	display: inline-block;
 	font-weight: 700;
+	font-size: 15px !important;
 	-webkit-transition: -webkit-transform 0.3s;
 	-moz-transition: -moz-transform 0.3s;
 	transition: transform 0.3s;
