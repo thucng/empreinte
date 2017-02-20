@@ -41,10 +41,10 @@ i {
     margin: 20px 0;
     padding: 8px 16px;
     background: #fff;
-    color: #373935;
+    color: #333333;
     font-size: 14px;
     font-weight: bold;
-    border: 1px solid #000000;
+    border: 1px solid #CCC;
     border-radius: 5px;
     text-transform: uppercase;
  }
@@ -56,9 +56,9 @@ i {
  
  .border-carre{
 	padding: 5px 10px;
-	border: 1px solid #000000;
+	border: 1px solid #CCC;
 	border-radius: 0;
-	color: #000000;
+	color: #333333;
  }
  
 .button--aylen {
