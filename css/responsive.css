@@ -160,7 +160,7 @@ p, a , span{
 		top: 10%;
 		right:0;
 		width: 1px;
-		height:80%
+		height:80%;
 		background-color: #000000;
 	}
 }
@@ -182,17 +182,6 @@ p, a , span{
 
 
 /*================================ menu responsive ===================================*/
-
-@font-face {
-	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot');
-	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/icomoon.woff') format('woff'),
-		url('../fonts/icomoon.ttf') format('truetype'),
-		url('../fonts/icomoon.svg#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
 
 /* Common styles of menus */
 
