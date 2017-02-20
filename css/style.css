@@ -688,7 +688,7 @@ a .product-item:hover  img{
 }
 
 .btn-reserver-produit{
-	padding: 10px 15px;
+	padding: 10px;
 	color: #000000;
 	background-color:#fff;
 	font-weight: 700;
@@ -696,7 +696,7 @@ a .product-item:hover  img{
 }
 
 .btn-ajouter-panier{
-	padding: 10px 20px;
+	padding: 10px 10px;
 	color: #000000;
 	background-color: #FFC600;
 	font-weight: 700;
