@@ -48,6 +48,15 @@ Color secondary : #FFC600
 	position: relative;
 	display:inline-block;
 }
+.nav-search .add-icon-search input{
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 10px;
+    border: 1px solid #ccc;
+    padding-right: 40px;
+}
 .add-icon-search .fa-search{
 	position: absolute;
 	top: 7px;
